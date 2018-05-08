@@ -1,0 +1,17 @@
+def szelet(b):
+    a=len(b)
+    c=list()
+    for i in range(a):
+	    c.append(b[i])
+    return c
+
+def ragaszt(a):
+    d='$'
+    for n in range(len(a)):
+        d=d+str(a[n])
+    return d[1:]
+
+def írdkimindet(lista):
+	for n in range(len(lista)-1):
+		a=n
+		print(lista[a], end=' ')
